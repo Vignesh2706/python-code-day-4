@@ -1,0 +1,4 @@
+n = int(input())
+def format_number(n):
+    return f"{n:,d}"
+print(format_number(n))
